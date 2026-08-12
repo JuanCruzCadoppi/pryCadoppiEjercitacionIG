@@ -37,13 +37,12 @@
             txtEdad = new TextBox();
             lblCarrera = new Label();
             txtCarrera = new TextBox();
-            lblResultado = new Label();
             SuspendLayout();
             // 
             // lblNombre
             // 
             lblNombre.AutoSize = true;
-            lblNombre.Location = new Point(59, 60);
+            lblNombre.Location = new Point(102, 60);
             lblNombre.Name = "lblNombre";
             lblNombre.Size = new Size(51, 15);
             lblNombre.TabIndex = 0;
@@ -68,7 +67,7 @@
             // lblApellido
             // 
             lblApellido.AutoSize = true;
-            lblApellido.Location = new Point(59, 93);
+            lblApellido.Location = new Point(102, 93);
             lblApellido.Name = "lblApellido";
             lblApellido.Size = new Size(51, 15);
             lblApellido.TabIndex = 3;
@@ -84,7 +83,7 @@
             // lblEdad
             // 
             lblEdad.AutoSize = true;
-            lblEdad.Location = new Point(59, 131);
+            lblEdad.Location = new Point(102, 131);
             lblEdad.Name = "lblEdad";
             lblEdad.Size = new Size(33, 15);
             lblEdad.TabIndex = 5;
@@ -100,7 +99,7 @@
             // lblCarrera
             // 
             lblCarrera.AutoSize = true;
-            lblCarrera.Location = new Point(59, 171);
+            lblCarrera.Location = new Point(102, 171);
             lblCarrera.Name = "lblCarrera";
             lblCarrera.Size = new Size(45, 15);
             lblCarrera.TabIndex = 7;
@@ -113,21 +112,11 @@
             txtCarrera.Size = new Size(136, 23);
             txtCarrera.TabIndex = 8;
             // 
-            // lblResultado
-            // 
-            lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(258, 278);
-            lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(32, 15);
-            lblResultado.TabIndex = 9;
-            lblResultado.Text = "label";
-            // 
             // frmCaso1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(511, 340);
-            Controls.Add(lblResultado);
             Controls.Add(txtCarrera);
             Controls.Add(lblCarrera);
             Controls.Add(txtEdad);
@@ -154,6 +143,5 @@
         private TextBox txtEdad;
         private Label lblCarrera;
         private TextBox txtCarrera;
-        private Label lblResultado;
     }
 }
